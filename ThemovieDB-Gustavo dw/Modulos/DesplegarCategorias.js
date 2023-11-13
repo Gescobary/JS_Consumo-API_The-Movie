@@ -1,6 +1,6 @@
 
 
-//ComboBox para desplegar las categorias  
+//ComboBox para desplegar las categorias de peliculas
 
 export const MostrarCategorias = (DirApi) => {
     fetch(DirApi).then((Resultado) => {
